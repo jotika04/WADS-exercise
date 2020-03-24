@@ -1,0 +1,17 @@
+h4{
+    font-weight: bold;
+    text-align: center;
+}
+
+.Regisform{
+    width: 400px;
+    height: 550px;
+    border-radius: 25px;
+    background: linear-gradient(to right,#db36a4,#f7ff00);
+    left: 50%;
+    top: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 10px;
+}

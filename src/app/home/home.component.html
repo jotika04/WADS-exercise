@@ -1,0 +1,8 @@
+
+
+<link rel="stylesheet" href="home.component.scss">
+<h4 class="mt-4">Home Page</h4>
+  <body>
+    <p *ngIf="user">You have signed in as: {{ user?.email }} - {{ user?.displayName }}</p>
+    <button class="btn btn-primary mr-2" (click)="logout()">Logout</button>
+    </body>
